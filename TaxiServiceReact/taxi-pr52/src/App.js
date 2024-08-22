@@ -11,32 +11,46 @@ import GoogleRegister from "./Components/GoogleRegister";
 import HomePage from "./Components/Register";
 import Profile from "./Components/Profile";
 import ChangePassword from "./Components/ChangePassword";
-import RideConfirmation from "./Components/Passenger/RideConfirmation";
+import PreviousRides from "./Components/User/PreviousRides";
+import NewRideForm from "./Components/User/NewRideForm";
 import AdminPanel from "./Components/Admin/AdminPanel";
+import VerifyDrivers from "./Components/Admin/VerifyDrivers";
+import DriverPreviousRides from "./Components/Driver/DriverPreviousRides";
+import DriverNewRidesList from "./Components/Driver/DriverNewRidesList";
+import RideCountdown from "./Components/User/RideCountdown";
+import Unauthorized from "./Components/Unathorized";
+import Header from "./Components/Header";
 
 
 function App() {
   const navigate = useNavigate();
 
   return (
+    <div><Header/>
     <div className="App">
       <ToastContainer position='top-right' autoClose={3000}/>
 
       <header className="App-header">
         <Routes>
 
-        <Route path='/' element={<PrivateRouteA><Login/></PrivateRouteA>}/> 
-        <Route path='/login' element={<PrivateRouteA><Login/></PrivateRouteA>}/>
-        <Route path='/register' element={<PrivateRouteA><Register/></PrivateRouteA>}/>
-        <Route path='/googleregister' element= {<PrivateRouteA><GoogleRegister/></PrivateRouteA>}/>
-        <Route path='/home' element={<PrivateRoute allowedRoles={['admin','seller','buyer']}><HomePage/></PrivateRoute>}>
-            <Route path='profile' element={<Profile/>} />
-            <Route path='changePassword' element={<ChangePassword/>}/>
-            <Route path='rideConfirmation' element={<RideConfirmation/>}/>
-            <Route path='adminPanel' element={<AdminPanel/>}/>
-        </Route>
+        <Route path='/' element={<Login/>}/> 
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/googleregister' element= {<GoogleRegister/>}/>
+        <Route path='/unauthorized' element= {<Unauthorized/>}/>
+        <Route path='/inprogress' element= {<PrivateRoute allowedRoles={['User']}><RideCountdown/></PrivateRoute>}/>
+        <Route path='/home' element={<PrivateRoute allowedRoles={['Admin','User','Driver']}><HomePage/></PrivateRoute>}/>
+        <Route path='/home/previousRides' element={<PrivateRoute allowedRoles={['User']}><PreviousRides/></PrivateRoute>}/>
+        <Route path='/home/newRide' element={<PrivateRoute allowedRoles={['User']}><NewRideForm/></PrivateRoute>}/>
+        <Route path='/home/profile' element={<Profile/>} />
+        <Route path='/home/changePassword' element={<ChangePassword/>}/>
+        <Route path='/home/admin/adminPanel' element={<PrivateRoute allowedRoles={['Admin']}><AdminPanel/></PrivateRoute>}/>
+        <Route path='/home/admin/verifyDrivers' element={<PrivateRoute allowedRoles={['Admin']}><VerifyDrivers/></PrivateRoute>}/>
+        <Route path='/home/driver/previousRides' element={<PrivateRoute allowedRoles={['Driver']}><DriverPreviousRides/></PrivateRoute>} />
+        <Route path='/home/driver/newRides' element={<PrivateRoute allowedRoles={['Driver']}><DriverNewRidesList/></PrivateRoute>} />
         </Routes>
       </header>
+      </div>
     </div>
   );
 }

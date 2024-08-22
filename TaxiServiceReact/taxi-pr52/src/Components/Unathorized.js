@@ -1,7 +1,7 @@
 function Unauthorized()
 {
     return (
-        <div>You are not authorized.</div>
+        <p>You are not authorized/verified.</p>
     );
 }
 export default Unauthorized;

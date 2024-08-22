@@ -1,0 +1,12 @@
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\Database.exe.config
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\Database.exe
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\Database.pdb
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\EntityFramework.dll
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\EntityFramework.xml
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\obj\Debug\Database.csproj.Up2Date
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\obj\Debug\Database.exe
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\Database\obj\Debug\Database.pdb

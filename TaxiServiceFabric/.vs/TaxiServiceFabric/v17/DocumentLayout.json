@@ -1,0 +1,941 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\controllers\\userconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\controllers\\userconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicestatefull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicestatefull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\interface\\iuserservicestatefull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\interface\\iuserservicestatefull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\rideservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\rideservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\taxiservicecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\taxiservicecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\controllers\\ridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\controllers\\ridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\configurationreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\configurationreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\emailservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\emailservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\emailservicedb\\emailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\emailservicedb\\emailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\emailservicedb\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\emailservicedb\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\controllermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\controllermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\model\\ride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\model\\ride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\model\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\model\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\interface\\iuserdatabasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\interface\\iuserdatabasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\interface\\irideservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\interface\\irideservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\interface\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\interface\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\interface\\iemailservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\interface\\iemailservicestateless.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\usereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\userchangepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\userchangepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\ridedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\ridedatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\registerusergoogledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\registerusergoogledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\googlelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\googlelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\common\\dto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3835A3EB-A267-466C-88A6-7C15A852E36A}|Common\\Common.csproj|solutionrelative:common\\dto\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicedb\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicedb\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicedb\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicedb\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicecontrollers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{256FAFFB-6587-46FE-91E4-757C00EE6DAA}|TaxiServiceControllers\\TaxiServiceControllers.csproj|solutionrelative:taxiservicecontrollers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicedb\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicedb\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\rideservicedb\\ridesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\rideservicedb\\ridesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\rideservicedb\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\rideservicedb\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\rideservicedb\\ridedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\rideservicedb\\ridedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\serviceeventsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\emailservicestateless\\emailservicestateless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1C117CE-3571-4BC2-B2BA-4C7892791539}|EmailServiceStateless\\EmailServiceStateless.csproj|solutionrelative:emailservicestateless\\emailservicestateless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicestatefull.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicestatefull.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\rideservicestateless\\rideservicestateless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E6B64960-0EDB-480A-92EC-E37B6C94E614}|RideServiceStateless\\RideServiceStateless.csproj|solutionrelative:rideservicestateless\\rideservicestateless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\userservicestatefull\\userservicestatefull.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AF5CA9BE-EECF-4D2D-B5EE-2F17458629B5}|UserServiceStatefull\\UserServiceStatefull.csproj|solutionrelative:userservicestatefull\\userservicestatefull.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\applicationparameters\\local.5node.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\applicationparameters\\local.5node.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\applicationparameters\\local.1node.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\applicationparameters\\local.1node.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\applicationparameters\\cloud.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\applicationparameters\\cloud.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\startupserviceparameters\\cloud.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\startupserviceparameters\\cloud.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|c:\\users\\arsenije\\desktop\\clone\\pugspr52\\taxiservicefabric\\taxiservicefabric\\applicationpackageroot\\applicationmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0838F7F-0389-49C7-B480-D4DE3384DE11}|TaxiServiceFabric\\TaxiServiceFabric.sfproj|solutionrelative:taxiservicefabric\\applicationpackageroot\\applicationmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arsenije\\AppData\\Local\\Temp\\.vsdbgsrc\\320b9188fbacc562195e00aaab55455af7a50c1ca6aa597ccefc9f71996c7cf6\\ServiceHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceEventSource.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\ServiceEventSource.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\ServiceEventSource.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\ServiceEventSource.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\ServiceEventSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:40:52.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaxiServiceControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\TaxiServiceControllers.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\TaxiServiceControllers.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\TaxiServiceControllers.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\TaxiServiceControllers.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwCoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:06:27.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\TokenService.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\TokenService.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\TokenService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAlwCwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:35:03.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RideServiceStateless.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceStateless.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\RideServiceStateless.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceStateless.cs",
+              "RelativeToolTip": "RideServiceStateless\\RideServiceStateless.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAwwI8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:59:13.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfigurationReader.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\ConfigurationReader.cs",
+              "RelativeDocumentMoniker": "Common\\ConfigurationReader.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\ConfigurationReader.cs",
+              "RelativeToolTip": "Common\\ConfigurationReader.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA+wCMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:41:29.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserServiceStatefull.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IUserServiceStatefull.cs",
+              "RelativeDocumentMoniker": "Common\\Interface\\IUserServiceStatefull.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IUserServiceStatefull.cs",
+              "RelativeToolTip": "Common\\Interface\\IUserServiceStatefull.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T19:19:32.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServiceStatefull.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceStatefull.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.cs",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceStatefull.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAEwDoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:12:31.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserConroller.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Controllers\\UserConroller.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\Controllers\\UserConroller.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Controllers\\UserConroller.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\Controllers\\UserConroller.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAhwHwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:02:45.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Program.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\Program.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Program.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:24:52.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RideController.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Controllers\\RideController.cs",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\Controllers\\RideController.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\Controllers\\RideController.cs",
+              "RelativeToolTip": "TaxiServiceControllers\\Controllers\\RideController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:03:21.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceEventSource.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\ServiceEventSource.cs",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\ServiceEventSource.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\ServiceEventSource.cs",
+              "RelativeToolTip": "EmailServiceStateless\\ServiceEventSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T18:42:15.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\Program.cs",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\Program.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\Program.cs",
+              "RelativeToolTip": "EmailServiceStateless\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:56:10.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailServiceStateless.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceStateless.cs",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\EmailServiceStateless.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceStateless.cs",
+              "RelativeToolTip": "EmailServiceStateless\\EmailServiceStateless.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAewDcAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:13:05.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceDB\\EmailRepository.cs",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\EmailServiceDB\\EmailRepository.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceDB\\EmailRepository.cs",
+              "RelativeToolTip": "EmailServiceStateless\\EmailServiceDB\\EmailRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvysAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:17:27.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceDB\\EmailDbContext.cs",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\EmailServiceDB\\EmailDbContext.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceDB\\EmailDbContext.cs",
+              "RelativeToolTip": "EmailServiceStateless\\EmailServiceDB\\EmailDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:17:02.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\FileStorageService.cs",
+              "RelativeDocumentMoniker": "Common\\FileStorageService.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\FileStorageService.cs",
+              "RelativeToolTip": "Common\\FileStorageService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwBoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:16:10.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ControllerMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\ControllerMapper.cs",
+              "RelativeDocumentMoniker": "Common\\ControllerMapper.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\ControllerMapper.cs",
+              "RelativeToolTip": "Common\\ControllerMapper.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:39:14.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ride.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\Ride.cs",
+              "RelativeDocumentMoniker": "Common\\Model\\Ride.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\Ride.cs",
+              "RelativeToolTip": "Common\\Model\\Ride.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:19:48.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Common\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\User.cs",
+              "RelativeToolTip": "Common\\Model\\User.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAawB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:33:44.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\Email.cs",
+              "RelativeDocumentMoniker": "Common\\Model\\Email.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Model\\Email.cs",
+              "RelativeToolTip": "Common\\Model\\Email.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:19:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserDatabaseHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IUserDatabaseHandler.cs",
+              "RelativeDocumentMoniker": "Common\\Interface\\IUserDatabaseHandler.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IUserDatabaseHandler.cs",
+              "RelativeToolTip": "Common\\Interface\\IUserDatabaseHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:14:04.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRideServiceStateless.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IRideServiceStateless.cs",
+              "RelativeDocumentMoniker": "Common\\Interface\\IRideServiceStateless.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IRideServiceStateless.cs",
+              "RelativeToolTip": "Common\\Interface\\IRideServiceStateless.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:53:25.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "Common\\Interface\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IFileStorageService.cs",
+              "RelativeToolTip": "Common\\Interface\\IFileStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:00:22.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEmailServiceStateless.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IEmailServiceStateless.cs",
+              "RelativeDocumentMoniker": "Common\\Interface\\IEmailServiceStateless.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Interface\\IEmailServiceStateless.cs",
+              "RelativeToolTip": "Common\\Interface\\IEmailServiceStateless.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:13:52.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserLoginDto.cs",
+              "RelativeToolTip": "Common\\Dto\\UserLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T22:53:51.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserEditDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserEditDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\UserEditDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserEditDto.cs",
+              "RelativeToolTip": "Common\\Dto\\UserEditDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T23:03:23.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserDto.cs",
+              "RelativeToolTip": "Common\\Dto\\UserDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T23:28:43.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\UserChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserChangePasswordDto.cs",
+              "RelativeToolTip": "Common\\Dto\\UserChangePasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T22:53:48.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterUserGoogleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\RegisterUserGoogleDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\RegisterUserGoogleDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\RegisterUserGoogleDto.cs",
+              "RelativeToolTip": "Common\\Dto\\RegisterUserGoogleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T22:53:47.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GoogleLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\GoogleLoginDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\GoogleLoginDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\GoogleLoginDto.cs",
+              "RelativeToolTip": "Common\\Dto\\GoogleLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T22:53:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ServiceEventSource.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\ServiceEventSource.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\ServiceEventSource.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\ServiceEventSource.cs",
+              "RelativeToolTip": "RideServiceStateless\\ServiceEventSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T16:44:04.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\UserRegisterDto.cs",
+              "RelativeToolTip": "Common\\Dto\\UserRegisterDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:29:29.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\Mapping.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceDB\\Mapping.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\Mapping.cs",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceDB\\Mapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T23:31:26.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RideDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\RideDataDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\RideDataDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\RideDataDto.cs",
+              "RelativeToolTip": "Common\\Dto\\RideDataDto.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAlwCwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T19:56:13.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\LoginResponseDto.cs",
+              "RelativeToolTip": "Common\\Dto\\LoginResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:13:31.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\GetUserDto.cs",
+              "RelativeDocumentMoniker": "Common\\Dto\\GetUserDto.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\Common\\Dto\\GetUserDto.cs",
+              "RelativeToolTip": "Common\\Dto\\GetUserDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:13:33.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\appsettings.json",
+              "RelativeDocumentMoniker": "TaxiServiceControllers\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceControllers\\appsettings.json",
+              "RelativeToolTip": "TaxiServiceControllers\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T18:35:28.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceDB\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\UserRepository.cs",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceDB\\UserRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAlwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:23:30.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceDB\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceDB\\UserDbContext.cs",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceDB\\UserDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:23:19.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RidesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\RidesRepository.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\RideServiceDB\\RidesRepository.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\RidesRepository.cs",
+              "RelativeToolTip": "RideServiceStateless\\RideServiceDB\\RidesRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAjwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T16:41:29.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\Mapping.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\RideServiceDB\\Mapping.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\Mapping.cs",
+              "RelativeToolTip": "RideServiceStateless\\RideServiceDB\\Mapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:57:13.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RideDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\RideDbContext.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\RideServiceDB\\RideDbContext.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceDB\\RideDbContext.cs",
+              "RelativeToolTip": "RideServiceStateless\\RideServiceDB\\RideDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T16:40:46.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\Program.cs",
+              "RelativeDocumentMoniker": "RideServiceStateless\\Program.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\Program.cs",
+              "RelativeToolTip": "RideServiceStateless\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:43:41.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ServiceEventSource.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\ServiceEventSource.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\ServiceEventSource.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\ServiceEventSource.cs",
+              "RelativeToolTip": "UserServiceStatefull\\ServiceEventSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:24:18.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmailServiceStateless.csproj",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceStateless.csproj",
+              "RelativeDocumentMoniker": "EmailServiceStateless\\EmailServiceStateless.csproj",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\EmailServiceStateless\\EmailServiceStateless.csproj",
+              "RelativeToolTip": "EmailServiceStateless\\EmailServiceStateless.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T11:18:03.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\Program.cs",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\Program.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\Program.cs",
+              "RelativeToolTip": "UserServiceStatefull\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:01:31.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RideServiceStateless.csproj",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceStateless.csproj",
+              "RelativeDocumentMoniker": "RideServiceStateless\\RideServiceStateless.csproj",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\RideServiceStateless\\RideServiceStateless.csproj",
+              "RelativeToolTip": "RideServiceStateless\\RideServiceStateless.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T11:18:03.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserServiceStatefull.csproj",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.csproj",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceStatefull.csproj",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.csproj",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceStatefull.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T10:07:08.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserServiceStatefull",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.csproj",
+              "RelativeDocumentMoniker": "UserServiceStatefull\\UserServiceStatefull.csproj",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\UserServiceStatefull\\UserServiceStatefull.csproj",
+              "RelativeToolTip": "UserServiceStatefull\\UserServiceStatefull.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T18:58:03.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Cloud.xml",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\StartupServiceParameters\\Cloud.xml",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\StartupServiceParameters\\Cloud.xml",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\StartupServiceParameters\\Cloud.xml",
+              "RelativeToolTip": "TaxiServiceFabric\\StartupServiceParameters\\Cloud.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-17T12:19:48.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Cloud.xml",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Cloud.xml",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\ApplicationParameters\\Cloud.xml",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Cloud.xml",
+              "RelativeToolTip": "TaxiServiceFabric\\ApplicationParameters\\Cloud.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-17T12:19:54.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Local.1Node.xml",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Local.1Node.xml",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\ApplicationParameters\\Local.1Node.xml",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Local.1Node.xml",
+              "RelativeToolTip": "TaxiServiceFabric\\ApplicationParameters\\Local.1Node.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-17T12:19:55.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Local.5Node.xml",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Local.5Node.xml",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\ApplicationParameters\\Local.5Node.xml",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationParameters\\Local.5Node.xml",
+              "RelativeToolTip": "TaxiServiceFabric\\ApplicationParameters\\Local.5Node.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-17T12:19:57.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ApplicationManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationPackageRoot\\ApplicationManifest.xml",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\ApplicationPackageRoot\\ApplicationManifest.xml",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\ApplicationPackageRoot\\ApplicationManifest.xml",
+              "RelativeToolTip": "TaxiServiceFabric\\ApplicationPackageRoot\\ApplicationManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-15T10:56:15.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\packages.config",
+              "RelativeDocumentMoniker": "TaxiServiceFabric\\packages.config",
+              "ToolTip": "C:\\Users\\Arsenije\\Desktop\\clone\\PUGSPR52\\TaxiServiceFabric\\TaxiServiceFabric\\packages.config",
+              "RelativeToolTip": "TaxiServiceFabric\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-14T19:03:47.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ServiceHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Arsenije\\AppData\\Local\\Temp\\.vsdbgsrc\\320b9188fbacc562195e00aaab55455af7a50c1ca6aa597ccefc9f71996c7cf6\\ServiceHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\320b9188fbacc562195e00aaab55455af7a50c1ca6aa597ccefc9f71996c7cf6\\ServiceHelper.cs",
+              "ToolTip": "C:\\Users\\Arsenije\\AppData\\Local\\Temp\\.vsdbgsrc\\320b9188fbacc562195e00aaab55455af7a50c1ca6aa597ccefc9f71996c7cf6\\ServiceHelper.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\320b9188fbacc562195e00aaab55455af7a50c1ca6aa597ccefc9f71996c7cf6\\ServiceHelper.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAYwFYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T19:13:29.064Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 322,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

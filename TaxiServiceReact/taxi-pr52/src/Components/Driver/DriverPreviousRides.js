@@ -1,6 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { getRides } from "../../Services/RideService";
 
-const DriverPreviousRides = ({ rides }) => {
+
+const DriverPreviousRides = () => {
+
+  const [rides, setRides] = useState([]);
+
+
+  useEffect(() => {
+
+    const fetchRides = async () => {
+      try {
+        const token = JSON.parse(localStorage.getItem('token'));
+
+
+        const tokenS = localStorage.getItem('encodedToken');
+        const token2 = tokenS ? JSON.parse(tokenS) : null;
+        console.log(token2);
+        const response = await getRides(token.id, token2);
+        if(response.status === 200 && response.data.length !== 0)
+          setRides(response.data); 
+      } catch (error) {
+        console.error('Failed to fetch rides:', error);
+      }
+    };
+  
+    fetchRides();
+  }, [])
   return (
     <div>
       <h3>Prethodne vožnje</h3>

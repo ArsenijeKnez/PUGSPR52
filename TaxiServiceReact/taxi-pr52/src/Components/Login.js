@@ -32,9 +32,11 @@ function Login() {
         }
         return valid;
     }
-    const login = async(data,u) =>
+    const login = async(data) =>
     {
-        const r = await LoginUser(data,navigate,u);
+        const r = await LoginUser(data);
+        if(r && r.status === 200)
+          navigate('/home/profile');
     }
     const handleSubmit = (event) =>
     {
@@ -47,7 +49,7 @@ function Login() {
             const u = event.target.username.value;
             formData.append("username",u);
             formData.append("password",event.target.password.value);
-            login(formData,u);
+            login(formData);
 
         }
     }
@@ -56,9 +58,11 @@ function Login() {
       const token = response.credential;
       const t = jwt_decode(token);
       var fd = new FormData();
-      fd.append('email',t.email);
-      fd.append('token',token);
-      const r = await LoginUserGoogle(fd,navigate);
+      fd.append('Email',t.email);
+      fd.append('Token',token);
+      const r = await LoginUserGoogle(fd);
+      if(r && r.status === 200)
+        navigate("/home/profile")
     }
     function googleLoginErrorHandle()
     {

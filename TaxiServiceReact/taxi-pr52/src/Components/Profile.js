@@ -4,7 +4,9 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { GetUserData,EditProfile } from "../Services/UserService";
 import { Form, Button } from 'react-bootstrap';
-import User from "../Model/User";
+import {User, getUserFromLocalStorage} from "../Model/User";
+import { get } from "react-hook-form";
+
 function Profile()
 {
     const [errorMessages, setErrorMessages] = useState({});
@@ -16,40 +18,29 @@ function Profile()
     const [email,setEmail] = useState('');
     const [date,setDate]  = useState('');
     const [address,setAddress] = useState('');
-    const [user,setUser] = useState({});
+    const [userType,setUserType] = useState('');
     const[formData,setFormData]=useState('');
     const [isGoogleUser,setIsGoogleUser] = useState('');
     const nav = useNavigate();
+
     useEffect(()=>{
         const u = localStorage.getItem('user');
         const t = localStorage.getItem('googleuser');
         console.log(t);
         setIsGoogleUser(t);
-        const getUser = async()=>
-        {
-            const resp = await GetUserData(u);
-            const userData = new User(
-              resp.data.username,
-              resp.data.name,
-              resp.data.lastname,
-              resp.data.email,
-              resp.data.birthday,
-              resp.data.address,
-              resp.data.picture
-            );
-            setUser(userData);
-            setName(userData.name);
-            setUsername(userData.username);
-            setAddress(userData.address);
-            var birthday = userData.birthday.substring(0,10);
-            setDate(birthday);
-            setLastname(userData.lastname);
-            setEmail(userData.email);
-            var arr = userData.picture;
-            const imageUrl = `data:image/png;base64,${arr}`;
-            setImage(imageUrl);
-        }
-        getUser();
+
+        const userData = getUserFromLocalStorage();
+        setUserType(userData.Role());
+        setName(userData.name);
+        setUsername(userData.username);
+        setAddress(userData.address);
+        var birthday = userData.birthday.substring(0,10);
+        setDate(birthday);
+        setLastname(userData.lastname);
+        setEmail(userData.email);
+        var arr = userData.picture;
+        const imageUrl = `data:image/png;base64,${arr}`;
+        setImage(imageUrl);
 
     },[])
     const renderErrorMessage = (name) =>
@@ -102,6 +93,19 @@ function Profile()
 
 
     }
+
+    const sendData = async(data) =>{
+      const resp = await EditProfile(data);
+      if(resp.status === 200)
+      {
+        toast.success('succesful edit of profile!');
+      }
+      else {
+        console.log('error');
+        toast.error('Failed to update data');
+      }
+    }
+
     function handleSubmit(event) {
         event.preventDefault();
         setErrorMessages({ name: "username", message: "" })
@@ -121,18 +125,10 @@ function Profile()
             formData.append('birthday', event.target.date.value);
             formData.append('email', event.target.email.value);
             formData.append('address', event.target.address.value);
-            //formData.append('usertype', event.target.usertype.value);
+            formData.append('usertype', userType);
             formData.append('file', file);
-            const resp = EditProfile(formData);
-            if(resp===null)
-            {
-              console.log('error');
 
-            }
-            else {
-            toast.success('succesful edit of profile!');
-            nav('/home');
-            }
+            sendData(formData);
         }
     }
     const handleFileChange = (event) => {

@@ -1,30 +1,29 @@
 import React from "react";
-import { Route, Navigate, Outlet } from "react-router-dom";
+import { Route, Navigate, Outlet, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { getUserFromLocalStorage, User} from '../Model/User';
 
 export default function PrivateRoute({ children, allowedRoles }) {
-    const token = JSON.parse(localStorage.getItem('token'));
-    if (!token) {
+    const location = useLocation();
+    const decodedToken = JSON.parse(localStorage.getItem('token'));
+    if (!decodedToken) {
         return <Navigate to='/login' />
     }
     else {
-        const role = token['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+        const role = decodedToken.user_role;
         if (!allowedRoles.includes(role)) {
             return <Navigate to='/unauthorized' />
         }
-        else {
-            if (allowedRoles[0] === 'seller') {
-                //setVerified(token.verified.toLowerCase());
-                if (token.verified.toLowerCase() === 'false') {
-                    return <Navigate to="../../unauthorized" />
-                }
-                else {
-                    return children;
-                }
-            }
-            else {
-                return children;
-            }
-        }
+
+        var u = getUserFromLocalStorage();
+        if(decodedToken.user_role === "Driver" && !u.isVerified())
+            return <Navigate to='/unauthorized' />
+
+        if(role === "User"&& localStorage.getItem('inProgress') === true && location.pathname !== '/inprogress'){
+            return <Navigate to='/inprogress' />}
+
+
+        return children;
+    
     }
 };

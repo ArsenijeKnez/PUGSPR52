@@ -5,91 +5,114 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import {User , getUserFromLocalStorage} from "../Model/User";
+
 function Header() {
     const nav = useNavigate();
     const [userRole, setUserRole] = useState(null);
     const [verified, setVerified] = useState(null);
-    const [isGoogleUser,setIsGoogleUser] = useState('');
 
     const location = useLocation();
+    
     function logout() {
         localStorage.removeItem('token');
         localStorage.removeItem('user');
         localStorage.removeItem('encodedtoken');
         localStorage.removeItem('googleuser');
         setUserRole('');
-        nav('/');
+        localStorage.setItem('inProgress', false);
+        nav('/login');
     }
     useEffect(() => {
         setUserRole('');
-        const t = localStorage.getItem('googleuser');
-        console.log(t);
-        setIsGoogleUser(t);
-        var token = localStorage.getItem('token');
-        if (token) {
-            const w = JSON.parse(token);
-            const r = w['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
-            if (r == 'seller') {
-                setVerified(w.verified.toLowerCase());
-            }
-            setUserRole(r);
+        const currentPath = location.pathname;
+        if(currentPath === '/login' || currentPath === '/register' || currentPath === '/googleregister' || currentPath === '/inprogress'){
+            return;
         }
-
+        var token = localStorage.getItem('token');
+        var user =  getUserFromLocalStorage();
+        if (token && user) {
+            setUserRole(user.Role());
+            setVerified(user.isVerified());
+        }
     }, [])
     return (
         <div style={{ backgroundColor: '#000000' }}>
             <Nav style={{ borderBottom: '3px solid #b0b0b0' }} >
-
-                {userRole === 'admin' && (
+                {userRole === 'Admin' && (
                     <Nav.Item>
 
-                        <Link to='verification' className={`nav-link  ${location.pathname === '/home/verification' ? 'active link-light' : 'link-light hoverLink '}`}>
+                        <Link to='/home/admin/adminPanel' className={` nav-link  ${location.pathname === '/home/admin/adminPanel' ? 'active link-light ' : 'link-light hoverLink '}`}>
+                            Pannel
+                        </Link>
+                    </Nav.Item>
+
+                )}
+                {userRole === 'Admin' && (
+                    <Nav.Item>
+
+                        <Link to='/home/admin/verifyDrivers' className={`nav-link  ${location.pathname === '/home/admin/verifyDrivers' ? 'active link-light' : 'link-light hoverLink '}`}>
                             Verifications
                         </Link>
                     </Nav.Item>
 
                 )}
 
-                {userRole === 'passenger' && (
+                {userRole === 'User' && (
                     <Nav.Item>
-                        <Link to='neworder' className={`nav-link  ${location.pathname === '/home/rideConfirmation' ? 'active link-light' : 'link-light hoverLink '}`}>
+                        <Link to='/home/previousRides' className={`nav-link  ${location.pathname === '/home/previousRides' ? 'active link-light' : 'link-light hoverLink '}`}>
+                            Passenger Pannel
+                        </Link>
+                    </Nav.Item>
+
+                )}
+                {userRole === 'User' && (
+                    <Nav.Item>
+                        <Link to='/home/newRide' className={`nav-link  ${location.pathname === '/home/newRide' ? 'active link-light' : 'link-light hoverLink '}`}>
                             New order
                         </Link>
                     </Nav.Item>
 
                 )}
-                {userRole === 'admin' && (
+                {userRole === 'Driver' && (
                     <Nav.Item>
+                        <Link to='/home/driver/previousRides' className={`nav-link  ${location.pathname === '/home/driver/previousRides' ? 'active link-light' : 'link-light hoverLink '}`}>
+                            Previous Rides
+                        </Link>
+                    </Nav.Item>
 
-                        <Link to='allorders' className={` nav-link  ${location.pathname === '/home/adminPanel' ? 'active link-light ' : 'link-light hoverLink '}`}>
-                            Orders
+                )}
+                {userRole === 'Driver' && (
+                    <Nav.Item>
+                        <Link to='/home/driver/newRides' className={`nav-link  ${location.pathname === '/home/driver/newRides' ? 'active link-light' : 'link-light hoverLink '}`}>
+                            New Rides
                         </Link>
                     </Nav.Item>
 
                 )}
 
-                {userRole === 'driver' && verified === 'false' && (
+                {userRole === 'Driver' && verified === 'false' && (
                     <Nav.Item className='ms-auto'>
                         <Link className="nav-link disable-link" style={{ color: 'red' }}>Account not verified!</Link>
                     </Nav.Item>
 
                 )}
 
-                {userRole === 'driver' && verified === '' && (
+                {userRole === 'Driver' && verified === '' && (
                     <Nav.Item className='ms-auto'>
                         <Link className="nav-link disable-link" style={{ color: 'yellow' }}>Verification pending!</Link>
                     </Nav.Item>
                 )}
                 {userRole && (
-                    <Nav.Item className={`${userRole === 'driver' ? '' : 'ms-auto'}`}>
-                        <Link to='profile' className={`nav-link  ${location.pathname === '/home/profile' ? 'active link-light' : 'link-light hoverLink '}`}>
+                    <Nav.Item className={`${userRole === 'Driver' ? '' : 'ms-auto'}`}>
+                        <Link to='/home/profile' className={`nav-link  ${location.pathname === '/home/profile' ? 'active link-light' : 'link-light hoverLink '}`}>
                             Edit profile
                         </Link>
                     </Nav.Item>
                 )}
-                {userRole && isGoogleUser==='false' && (
+                {userRole && (
                     <Nav.Item>
-                        <Link to='changePassword' className={`nav-link  ${location.pathname === '/home/changePassword' ? 'active link-light' : 'link-light hoverLink '}`}>
+                        <Link to='/home/changePassword' className={`nav-link  ${location.pathname === '/home/changePassword' ? 'active link-light' : 'link-light hoverLink '}`}>
                             Change password
                         </Link>
                     </Nav.Item>

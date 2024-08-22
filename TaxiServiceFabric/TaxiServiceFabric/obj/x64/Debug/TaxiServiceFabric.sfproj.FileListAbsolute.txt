@@ -1,0 +1,2 @@
+C:\Users\Arsenije\source\repos\TaxiServiceFabric\TaxiServiceFabric\obj\x64\Debug\TaxiServiceFabric.sfproj.CoreCompileInputs.cache
+C:\Users\Arsenije\Desktop\TaxiServiceFabric\TaxiServiceFabric\obj\x64\Debug\TaxiServiceFabric.sfproj.CoreCompileInputs.cache

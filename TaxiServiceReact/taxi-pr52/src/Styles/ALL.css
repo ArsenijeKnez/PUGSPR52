@@ -73,9 +73,9 @@ input {
 
 button {
   padding: 10px;
-  background-color: blue;
-  color: blue;
-  border: none;
+  background-color: #c2c2c2;
+  color: rgb(0, 0, 0);
+  border: blue;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom:5px;

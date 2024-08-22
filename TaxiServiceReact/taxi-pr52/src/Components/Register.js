@@ -22,6 +22,7 @@ function Register() {
         var valid = true;
         const username = event.target.username.value;
         const password = event.target.password.value;
+        const password2 = event.target.password2.value;
         const email = event.target.email.value;
         const name = event.target.name.value;
         const lastname = event.target.lastname.value;
@@ -71,17 +72,23 @@ function Register() {
             setErrorMessages({ name: "picture", message: "Picture is required!" });
             valid = false;
         }
+        if(password2 !== password){
+            setErrorMessages({ name: "password", message: "Passwords do not match" });
+            valid = false;
+        }
         return valid;
 
 
     }
     const reg = async (data) => {
         const r = await RegisterUser(data);
-        if(r===null)
-            console.log("error");
+        if(r.status === 200){
+            toast.success('successful registration!');
+            nav('/home/profile');
+        }
         else {
-        toast.success('successful registration!');
-        nav('../login');
+            toast.error('failed registration!');
+            console.log("error");
         }
 
     }
@@ -99,17 +106,17 @@ function Register() {
         setErrorMessages({ name: "picture", message: "" });
         if (validate(event)) {
             const formData = new FormData();
-            formData.append('username', event.target.username.value);
-            formData.append('name', event.target.name.value);
-            formData.append('lastname', event.target.lastname.value);
-            formData.append('password', event.target.password.value);
-            formData.append('birthday', event.target.date.value);
-            formData.append('email', event.target.email.value);
-            formData.append('address', event.target.address.value);
-            formData.append('usertype', event.target.usertype.value);
+            formData.append('Username', event.target.username.value);
+            formData.append('Name', event.target.name.value);
+            formData.append('Lastname', event.target.lastname.value);
+            formData.append('Password', event.target.password.value);
+            formData.append('Birthday', event.target.date.value);
+            formData.append('Email', event.target.email.value);
+            formData.append('Address', event.target.address.value);
+            formData.append('UserType', event.target.usertype.value);
             formData.append('file', file);
 
-            reg(formData);
+            reg(formData, event.target.username.value);
 
         }
     }
@@ -120,7 +127,7 @@ function Register() {
     };
     function googleLoginHandle(response) {
         console.log(response.credential);
-        nav('../googleregister', { state: response.credential });
+        nav('/googleregister', { state: response.credential });
     }
     function googleLoginErrorHandle() {
         toast.error('Google login error');
@@ -160,6 +167,12 @@ function Register() {
                         {renderErrorMessage("password")}
                     </Form.Group>
 
+                    <Form.Group controlId="password2">
+                        <Form.Label>Password check</Form.Label>
+                        <Form.Control type="password" name="password2" />
+                        {renderErrorMessage("password check")}
+                    </Form.Group>
+
                     <Form.Group controlId="date">
                         <Form.Label>Date of Birth</Form.Label>
                         <Form.Control type="date" name="date" />
@@ -175,8 +188,9 @@ function Register() {
                     <Form.Group controlId="usertype">
                         <Form.Label>User Type</Form.Label>
                         <Form.Control as="select" name="usertype">
-                            <option value="buyer">Buyer</option>
-                            <option value="seller">Seller</option>
+                            <option value="User">User</option>
+                            <option value="Driver">Driver</option>
+                            <option value="Admin">Admin</option>
                         </Form.Control>
                         {renderErrorMessage("usertype")}
                     </Form.Group>

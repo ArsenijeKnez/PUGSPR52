@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ChangeUserPassword } from "../Services/UserService";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import {User, getUserFromLocalStorage} from "../Model/User";
+
 function ChangePassword()
 {
     const nav = useNavigate();
@@ -14,17 +16,17 @@ function ChangePassword()
         if(validate(event))
         {
             var formData = new FormData();
-            const u = localStorage.getItem('user');
+            const u = getUserFromLocalStorage();
             //console.log(u);
             const token = localStorage.getItem('encodedtoken');
            // const data = {Username:u,OldPassword:event.target.oldPassword.value,NewPassword:event.target.newPassword.value};
-            formData.append("Username",u);
+            formData.append("Username",u.Username());
             formData.append("NewPassword",event.target.newPassword.value);
             formData.append("OldPassword",event.target.oldPassword.value);
             const resp = await ChangeUserPassword(formData);
-            if(resp.data==true){
+            if(resp.status === 200){
                 toast.success('succesful pasword change!');
-                nav('../../home');
+                nav('/home');
             }
             else 
                 toast.error('wrong old password!');

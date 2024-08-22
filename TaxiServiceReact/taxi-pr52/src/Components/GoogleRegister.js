@@ -36,6 +36,8 @@ function GoogleRegister() {
         const lastname = event.target.lastname.value;
         const date = event.target.date.value;
         const address = event.target.address.value;
+        const password = event.target.password.value;
+        const password2 = event.target.password2.value;
 
         if (username.trim() === "") {
             setErrorMessages({ name: "username", message: "Username is required!" });
@@ -67,16 +69,24 @@ function GoogleRegister() {
             setErrorMessages({ name: "picture", message: "Picture is required!" });
             valid = false;
         }
+        if (password.trim() === "") {
+            setErrorMessages({ name: "password", message: "Password is required!" });
+            valid = false;
+        }
+        if(password2 !== password){
+            setErrorMessages({ name: "password", message: "Passwords do not match" });
+            valid = false;
+        }
         return valid;
 
 
     }
-    const reg = async (data) => {
-        const r = await RegisterGoogle(data);
+    const reg = async (data, username) => {
+        const r = await RegisterGoogle(data, username);
 
-        if (r == true) {
+        if (r && r.status === 200) {
             toast.success('successful registration!');
-            nav('../login');
+            nav('/home/profile');
         }
         else {
             //toast.error('Invalid data!');
@@ -98,13 +108,13 @@ function GoogleRegister() {
             formData.append('name', event.target.name.value);
             formData.append('lastname', event.target.lastname.value);
             formData.append('birthday', event.target.date.value);
-            formData.append('password','');
+            formData.append('password', event.target.password.value);
             formData.append('email', email);
             formData.append('address', event.target.address.value);
-            formData.append('usertype', 'buyer');
+            formData.append('usertype', 'User');
             formData.append('file', file);
             formData.append('token',token);
-            reg(formData);
+            reg(formData,  event.target.username.value);
 
         }
     }
@@ -135,6 +145,17 @@ function GoogleRegister() {
                             {renderErrorMessage("lastname")}
                         </Form.Group>
 
+                        <Form.Group controlId="password">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" name="password" />
+                        {renderErrorMessage("password")}
+                    </Form.Group>
+
+                    <Form.Group controlId="password2">
+                        <Form.Label>Password check</Form.Label>
+                        <Form.Control type="password" name="password2" />
+                        {renderErrorMessage("password check")}
+                    </Form.Group>
 
                         <Form.Group controlId="date">
                             <Form.Label>Date of Birth</Form.Label>
